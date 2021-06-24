@@ -49,7 +49,7 @@ def cargardata():
     S0 = float(spot.get())
     K = float(strike.get())
     T = float(dias.get())/365
-    r = float(tasa.get())
+    r = float(tasa.get())/100
     C0 = float(prima.get())
     Sigma_init = 0.5
     opcion=tipo.get()
